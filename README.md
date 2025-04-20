@@ -1,1 +1,400 @@
+-<!DOCTYPE html>
 
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Notario Daynier Sánchez | Austin, TX</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      padding: 0;
+
+      line-height: 1.6;
+
+      background-color: #f9f9f9;
+
+      color: #333;
+
+    }
+
+    header {
+
+      background-color: #004080;
+
+      color: white;
+
+      padding: 1em 0;
+
+      text-align: center;
+
+    }
+
+    .container {
+
+      width: 90%;
+
+      max-width: 1000px;
+
+      margin: auto;
+
+      padding: 2em 0;
+
+    }
+
+    h1, h2 {
+
+      color: #004080;
+
+    }
+
+    .services ul, .prices ul {
+
+      list-style: none;
+
+      padding: 0;
+
+    }
+
+    .services li, .prices li {
+
+      margin-bottom: 0.5em;
+
+    }
+
+    footer {
+
+      background-color: #eee;
+
+      padding: 1em;
+
+      text-align: center;
+
+      font-size: 0.9em;
+
+      color: #555;
+
+    }
+
+    .highlight {
+
+      color: #c00;
+
+      font-weight: bold;
+
+    }
+
+  </style>
+
+  <script>
+
+    function changeLanguage(language) {
+
+      const elements = document.querySelectorAll('[data-lang]');
+
+      elements.forEach(element => {
+
+        const lang = element.getAttribute('data-lang');
+
+        if (lang === language) {
+
+          element.style.display = 'block';
+
+        } else {
+
+          element.style.display = 'none';
+
+        }
+
+      });
+
+    }
+
+  </script>
+
+</head>
+
+<body>
+
+
+  <div class="container">
+
+    <!-- Español -->
+
+    <div data-lang="es">
+
+      <section class="intro">
+
+        <h2>Bienvenido</h2>
+
+        <p>📋Ofrezco servicios notariales <strong>presenciales</strong> en Austin, Texas. Atención profesional, clara y confiable en ambos idiomas: inglés y español.</p>
+
+        <p><strong>🕘Horario:</strong> Lunes a Viernes – 9:00 a.m. a 5:00 p.m.</p>
+
+        <p><strong>Teléfono:</strong>📱737-707-5410 | <strong>Email:</strong>📧sanchezdaynier24@gmail.com</p>
+
+      </section>
+
+ 
+
+      <section class="services">
+
+        <h2>Servicios Notariales</h2>
+
+        <ul>
+
+          <li><strong>✍️Reconocimiento de firmas</strong></li>
+
+          <li><strong>📑Juramentos y declaraciones juradas</strong></li>
+
+          <li><strong>🧾Certificación de copias</strong></li>
+
+          <li><strong>🏥Poderes notariales</strong></li>
+
+          <li><strong>📄Testamentos y documentos de herencia</strong></li>
+
+          <li><strong>🤝Contratos y acuerdos legales</strong></li>
+
+          <li><strong>💍Acuerdos prenupciales y postnupciales</strong></li>
+
+          <li><strong>👥Declaraciones de testigos</strong></li>
+
+          <li><strong>✈️Cartas de consentimiento para viajes de menores</strong></li>
+
+          <li><strong>🛂Documentos de inmigración (sin asesoría legal)</strong></li>
+
+          <li><strong>📝Formularios médicos y escolares</strong></li>
+
+          <li><strong>🖋Actas notariales</strong></li>
+
+          <li><strong>🔄Traducciones certificadas (inglés ↔ español)</strong></li>
+
+        </ul>
+
+      </section>
+
+ 
+
+      <section class="about">
+
+        <h2>💼Sobre Mí</h2>
+
+        <p>Mi nombre es Daynier Aurelio Sánchez Camallea. Soy notario público autorizado en el estado de Texas, ubicado en Austin (ZIP 78758). Trabajo de forma <strong>100% presencial</strong> para asegurar la legalidad y confianza en cada documento firmado.</p>
+
+        <p>Con atención bilingüe y un trato amable, te aseguro un servicio seguro, puntual y confidencial.</p>
+
+      </section>
+
+ 
+
+      <section class="prices">
+
+        <h2>💲Precios</h2>
+
+        <ul>
+
+          <li>Firma notarial: <span class="highlight">$10 por firma</span></li>
+
+          <li>Juramento o afirmación: <span class="highlight">$10 por persona</span></li>
+
+          <li>Certificación de copia: <span class="highlight">$10 por copia</span></li>
+
+          <li>Viajes (si aplica): A convenir</li>
+
+        </ul>
+
+        <p><em>🌟Precios basados en la normativa del Estado de Texas. Transparencia y sin cargos ocultos.</em></p>
+
+      </section>
+
+ 
+
+      <section class="contact">
+
+        <h2>✉️Contacto</h2>
+
+        <p><strong>📱Teléfono:</strong> <a href=tel:7377075410>737-707-5410</a></p>
+
+        <p><strong>📧Email:</strong> <a href=mailto:sanchezdaynier24@gmail.com>sanchezdaynier24@gmail.com</a></p>
+
+        <p><strong>📍Ubicación:</strong> Austin, TX 78758</p>
+
+        <p><strong>🕘Horario:</strong> Lunes a Viernes, 9:00 a.m. – 5:00 p.m.</p>
+
+      </section>
+
+ 
+
+      <section class="reviews">
+
+        <h2>⭐Opiniones de Clientes</h2>
+
+        <blockquote>“Servicio muy profesional y rápido. Daynier me explicó todo en español y fue muy amable.” – Carla G.</blockquote>
+
+        <blockquote>“Excelente atención y puntualidad. Lo recomiendo al 100%.” – Luis M.</blockquote>
+
+        <blockquote>"Rápido, amable y súper profesional. Tenía un contrato que necesitaba ser notariado y Daynier lo manejó sin problemas."
+
+        —James T. | Austin, TX</blockquote>
+
+        <blockquote>"Necesitaba una traducción certificada para documentos de inmigración y Daynier hizo un trabajo excelente. ¡Lo recomiendo totalmente!"
+
+— Rebecca L.</blockquote>
+
+        <blockquote>"¡Gran servicio! Pude notarizar mis formularios escolares en muy poco tiempo. Además, él es bilingüe, lo cual facilitó todo para mis padres."
+
+— Michael G.</blockquote>
+
+      </section>
+
+    </div>
+
+ 
+
+    <!-- English -->
+
+    <div data-lang="en" style="display: none;">
+
+      <section class="intro">
+
+        <h2>Welcome</h2>
+
+        <p>📋I offer <strong> in-person</strong> notarial services in Austin, Texas. Professional, clear, and trustworthy service in both English and Spanish.</p>
+
+        <p><strong>🕘Hours:</strong> Monday to Friday – 9:00 a.m. to 5:00 p.m.</p>
+
+        <p><strong>Phone:</strong>📱737-707-5410 | <strong>Email:</strong>📧sanchezdaynier24@gmail.com</p>
+
+      </section>
+
+ 
+
+      <section class="services">
+
+        <h2>Notarial Services</h2>
+
+        <ul>
+
+          <li><strong>✍️Signature Acknowledgments</strong></li>
+
+          <li><strong>📑Oaths and Affirmations</strong></li>
+
+          <li><strong>🧾Certified Copies</strong></li>
+
+          <li><strong>🏥Power of Attorney</strong></li>
+
+          <li><strong>📄Wills and Estate Documents</strong></li>
+
+          <li><strong>🤝Contracts and Legal Agreements</strong></li>
+
+          <li><strong>💍Prenuptial and Postnuptial Agreements</strong></li>
+
+          <li><strong>👥Witness Statements</strong></li>
+
+          <li><strong>✈️Minor Travel Consent Letters</strong></li>
+
+          <li><strong>🛂Immigration Documents (no legal advice)</strong></li>
+
+          <li><strong>📝Medical and School Forms</strong></li>
+
+          <li><strong>🖋Notarial Acts</strong></li>
+
+          <li><strong>🔄Certified Translations (English ↔ Spanish)</strong></li>
+
+        </ul>
+
+      </section>
+
+ 
+
+      <section class="about">
+
+        <h2>💼About Me</h2>
+
+        <p>My name is Daynier Aurelio Sánchez Camallea. I am a notary public authorized in the state of Texas, located in Austin (ZIP 78758). I work <strong>100% in person</strong> to ensure the legality and trustworthiness of each signed document.</p>
+
+        <p>With bilingual service and a friendly approach, I guarantee a safe, timely, and confidential service.</p>
+
+      </section>
+
+ 
+
+      <section class="prices">
+
+        <h2>💲Prices</h2>
+
+        <ul>
+
+          <li>Signature Acknowledgment: <span class="highlight">$10 per signature</span></li>
+
+          <li>Oath or Affirmation: <span class="highlight">$10 per person</span></li>
+
+          <li>Certified Copy: <span class="highlight">$10 per copy</span></li>
+
+          <li>Travel (if applicable): To be agreed</li>
+
+        </ul>
+
+        <p><em>🌟Prices based on the State of Texas regulations. Transparency and no hidden fees.</em></p>
+
+      </section>
+
+ 
+
+      <section class="contact">
+
+        <h2>✉️Contact</h2>
+
+        <p><strong>📱Phone:</strong> <a href=tel:7377075410>737-707-5410</a></p>
+
+        <p><strong>📧Email:</strong> <a href=mailto:sanchezdaynier24@gmail.com>sanchezdaynier24@gmail.com</a></p>
+
+        <p><strong>📍Location:</strong> Austin, TX 78758</p>
+
+        <p><strong>🕘Hours:</strong> Monday to Friday, 9:00 a.m. – 5:00 p.m.</p>
+
+      </section>
+
+ 
+
+      <section class="reviews">
+
+        <h2>⭐Client Testimonials</h2>
+
+        <blockquote>“Very professional service and quick. Daynier explained everything in Spanish and was very kind.” – Carla G.</blockquote>
+
+        <blockquote>“Excellent attention and punctuality. I highly recommend him.” – Luis M.</blockquote>
+
+        <blockquote>"Fast, friendly, and super professional. I had a contract that needed notarizing, and Daynier handled it smoothly!"— James T. | Austin, TX</blockquote>
+
+        <blockquote>"I needed a certified translation for immigration documents and Daynier did an amazing job. Highly recommend!"— Rebecca L.</blockquote>
+
+        <blockquote>"Great service! I was able to get my school forms notarized in no time. Plus, he’s bilingual which made everything easier for my parents." — Michael G.</blockquote>
+
+      </section>
+
+    </div>
+
+  </div>
+
+ 
+
+  <footer>
+
+    <p>© 2025 Daynier Aurelio Sánchez Camallea | Notary Public in Austin, TX</p>
+
+  </footer>
+
+</body>
+
+</html>
