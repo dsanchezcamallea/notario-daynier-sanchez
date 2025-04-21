@@ -1,104 +1,148 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
+
 <html lang="es">
+
 <head>
+
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Notario Daynier Sánchez | Austin, TX</title>
+
   <style>
+
     body {
+
       font-family: Arial, sans-serif;
+
       margin: 0;
+
       padding: 0;
+
       line-height: 1.6;
+
       background-color: #f9f9f9;
+
       color: #333;
+
     }
 
-  header {
-  width: 100%;
-  background-color: #004080;
-  color: white;
-  padding: 1em 0;
-  text-align: center;
-}
+    header {
 
-.header-content {
-  max-width: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 1em;
-}
+      background-color: #004080;
 
-header img {
-  max-width: 100%;
-  height: auto;
-}
-  
-    .banner-img {
-      width: 100%;
-      max-width: 1000px;
-      display: block;
-      margin: 0 auto;
+      color: white;
+
+      padding: 1em 0;
+
+      text-align: center;
+
     }
 
     .container {
+
       width: 90%;
+
       max-width: 1000px;
+
       margin: auto;
+
       padding: 2em 0;
+
     }
 
     h1, h2 {
+
       color: #004080;
+
     }
 
     .services ul, .prices ul {
+
       list-style: none;
+
       padding: 0;
+
     }
 
     .services li, .prices li {
+
       margin-bottom: 0.5em;
+
     }
 
     footer {
+
       background-color: #eee;
+
       padding: 1em;
+
       text-align: center;
+
       font-size: 0.9em;
+
       color: #555;
+
     }
 
     .highlight {
+
       color: #c00;
+
       font-weight: bold;
+
     }
 
-    button {
-      margin: 10px;
-      padding: 8px 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
   </style>
+
   <script>
+
     function changeLanguage(language) {
+
       const elements = document.querySelectorAll('[data-lang]');
+
       elements.forEach(element => {
+
         const lang = element.getAttribute('data-lang');
-        element.style.display = (lang === language) ? 'block' : 'none';
+
+        if (lang === language) {
+
+          element.style.display = 'block';
+
+        } else {
+
+          element.style.display = 'none';
+
+        }
+
       });
+
     }
+
   </script>
+
 </head>
 
 <body>
-  <header>
-    <img src="banner.png" alt="Banner Notario Daynier Sánchez" class="banner-img">
-    <button onclick="changeLanguage('es')">Español</button>
-    <button onclick="changeLanguage('en')">English</button>
-  </header>
-<div class="container">
+
+<header>
+
+  <img src="logo.png" alt="Logo de Notario Daynier Sánchez" style="max-width: 120px; margin-bottom: 10px;">
+
+  <h1>Daynier Aurelio Sánchez Camallea</h1>
+
+  <p>📝Notario Público en Austin, TX (78758)</p>
+
+  <p>📍Servicios en inglés y español | Atención presencial</p>
+
+  <button onclick="changeLanguage('es')">Español</button>
+
+  <button onclick="changeLanguage('en')">English</button>
+
+</header>
+
+  <div class="container">
 
     <!-- Español -->
 
@@ -115,6 +159,8 @@ header img {
         <p><strong>Teléfono:</strong>📱737-707-5410 | <strong>Email:</strong>📧sanchezdaynier24@gmail.com</p>
 
       </section>
+
+ 
 
       <section class="services">
 
@@ -152,6 +198,7 @@ header img {
 
       </section>
 
+ 
 
       <section class="about">
 
@@ -164,6 +211,7 @@ header img {
       </section>
 
  
+
       <section class="prices">
 
         <h2>💲Precios</h2>
@@ -184,6 +232,7 @@ header img {
 
       </section>
 
+ 
 
       <section class="contact">
 
@@ -198,6 +247,8 @@ header img {
         <p><strong>🕘Horario:</strong> Lunes a Viernes, 9:00 a.m. – 5:00 p.m.</p>
 
       </section>
+
+ 
 
       <section class="reviews">
 
@@ -220,14 +271,13 @@ header img {
 — Michael G.</blockquote>
 
       </section>
- 
+
     </div>
-       
-  </div>
+
+ 
 
     <!-- English -->
 
-  
     <div data-lang="en" style="display: none;">
 
       <section class="intro">
@@ -242,6 +292,7 @@ header img {
 
       </section>
 
+ 
 
       <section class="services">
 
@@ -346,20 +397,19 @@ header img {
         <blockquote>"Great service! I was able to get my school forms notarized in no time. Plus, he’s bilingual which made everything easier for my parents." — Michael G.</blockquote>
 
       </section>
-     
-        </div>
+
+    </div>
 
   </div>
-  
-  <!-- Aquí empieza el resto del contenido -->
-  <!-- Puedes pegar todo tu contenido existente aquí, como lo tienes en tu HTML original -->
 
-  <!-- Pega aquí el div con class="container" que ya tienes -->
  
+
   <footer>
 
     <p>© 2025 Daynier Aurelio Sánchez Camallea | Notary Public in Austin, TX</p>
 
   </footer>
+
 </body>
+
 </html>
